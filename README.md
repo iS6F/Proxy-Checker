@@ -7,7 +7,7 @@ Installing them is pretty straight foward
 pip install requests
 pip install pythonping
 ```
-os is already pre-installed with python.
+os is already pre-installed with python,
 This checker is made within 2 stages as explained here.
 
 **Stage 1**
