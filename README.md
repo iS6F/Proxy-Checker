@@ -1,5 +1,5 @@
 # Proxy Checker
-*Minimal, Customizable and Powerful CLI-Based proxy checker*
+*Minimal, Customizable and Powerful CLI-Based proxy checker in 50 lines of code*
 
 The requirements are [``os``, ``requests`` , ``pythonping``]
 Installing them is pretty straight foward
