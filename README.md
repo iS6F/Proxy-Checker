@@ -25,7 +25,8 @@ if ping <= 200: # 200 is the maximum ping/ms by default, change it however you l
 
 Checking if the proxies can be accessible via the requests module and *https://ipinfo.io* as shown here
 ```py
-proxy_base = requests.get('https://ipinfo.io/json', proxies={'http': 'http://' + ip, 'https': 'http://' + ip}, timeout=3.5) # you can change the timeout to make the program faster, 3.5s is the default.
+proxy_base = requests.get('https://ipinfo.io/json', proxies={'http': 'http://' + ip, 'https': 'http://' + ip}, timeout=3.5) 
+# you can change the timeout to make the program faster, 3.5s is the default.
 ```
 
 After that filtered working proxies will be stored in the ``/output/alive.txt`` file, and extra details like country and ms/ping will be stored at ``/output/details.txt`` file.
