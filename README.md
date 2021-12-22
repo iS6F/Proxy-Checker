@@ -2,7 +2,7 @@
 *Minimal, Customizable and Powerful CLI-Based proxy checker*
 
 The requirements are [``os``, ``requests`` , ``pythonping``]
-Installing them are pretty straight foward
+Installing them is pretty straight foward
 ```
 pip install requests
 pip install pythonping
