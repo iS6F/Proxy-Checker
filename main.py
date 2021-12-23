@@ -16,8 +16,7 @@ ipcount = 0
 done = 0
 alive = 0
 for ip in ips:
-    ipcount += 1
-    
+    ipcount += 1   
 for ip in ips:
     try:
         done += 1
