@@ -11,6 +11,7 @@ cp = '\33[35m'
 cg = '\33[32m'
 cr = '\33[31m'
 cy = '\33[33m'
+os.system('cls')
 ipcount = 0
 done = 0
 alive = 0
