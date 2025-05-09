@@ -1,5 +1,5 @@
 # Proxy Checker
-*Minimal, Customizable and Powerful CLI-Based proxy checker in 50 lines of code*
+*Minimal CLI-Based proxy checker in 50 lines of code*
 
 The requirements are ``os``, ``requests`` and ``pythonping``
 Installing them is pretty straight foward
@@ -30,6 +30,5 @@ proxy_base = requests.get('https://ipinfo.io/json', proxies={'http': 'http://' +
 ```
 
 After that filtered working proxies will be stored in the ``/output/alive.txt`` file, and extra details like country and ms/ping will be stored at ``/output/details.txt`` file.
-Feel free to edit the file however you like and modify it if you wan't to.
 
-i might add the blocklist filter from my old repo to this file but i need to improve it first :)
+Add threadding on your own with your config
